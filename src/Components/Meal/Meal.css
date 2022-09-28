@@ -1,0 +1,39 @@
+.Meal img {
+    width: 280px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Meal {
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mealInfo {
+    margin: 0 10px 10px;
+}
+
+.mealInfo h4 {
+    margin: 5px 0;
+}
+
+.mealInfo p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.Meal button {
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+}

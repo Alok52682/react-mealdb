@@ -1,0 +1,22 @@
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 50px;
+}
+
+.allMeals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cartSection {
+    background-color: rgb(197, 227, 247);
+}
+
+.meals input {
+    width: 25%;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 20px;
+}

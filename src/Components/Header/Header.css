@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(164, 246, 218);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navber {
+    color: coral;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber a {
+    color: coral;
+    font-weight: 600;
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navber a:hover {
+    background-color: rgb(171, 226, 228);
+    border-radius: 5px;
+}

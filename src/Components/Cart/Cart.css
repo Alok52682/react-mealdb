@@ -1,0 +1,26 @@
+.cart {
+    position: sticky;
+    top: 100px;
+    padding: 0 30px;
+}
+
+.cart button {
+    margin-left: 20px;
+    width: 200px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.list {
+    font-weight: 600;
+    line-height: 25px;
+    height: 200px;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    overflow: scroll;
+}
